@@ -16,7 +16,6 @@ lhapdf/
 jobs/
 Rivet-*/
 YODA*/
-MG5_aMC_v*/
 fastjet-*/
 fjcontrib-*/
 rivet-bootstrap
