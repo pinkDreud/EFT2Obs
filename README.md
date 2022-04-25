@@ -68,6 +68,8 @@ The Madgraph-compatible models you wish to study should be installed next. Scrip
 ```sh
 ./scripts/setup_model_HEL.sh
 ./scripts/setup_model_SMEFTsim.sh
+wget http://gboldrin.web.cern.ch/gboldrin/generators/SMEFTsim_U35_MwScheme_UFO.tar.gz
+tar -xf SMEFTsim_U35_MwScheme_UFO.tar.gz $MG_DIR/models
 ```
 
 *Note: a patch is provided for the HEL model that will fix the mass of the Z boson, otherwise by default this will vary as a function of the EFT parameters: `patch MG5_aMC_v2_6_7/models/HEL_UFO/parameters.py setup/HEL_fix_MZ__parameters.py.patch`*
