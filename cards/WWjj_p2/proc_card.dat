@@ -7,4 +7,4 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 generate p p > l+ vl l+ vl j j SMHLOOP=0 QCD=0 NP=1
 add process p p > l- vl~ l- vl~ j j SMHLOOP=0 QCD=0 NP=1 
-output WWjjTolnulnu_SS_ewk_dim6
+output WWjj_p2
